@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
     let linkedInLink = document.createElement("a");
     linkedInLink.textContent = "LinkedIn";
     linkedInLink.href = "https://www.linkedin.com/in/ben-cravens-038b582b1/";
-    foot.append(LinkedInLink);
+    foot.append(linkedInLink);
 
     let handshakeLink = document.createElement("a");
     handshakeLink.textContent = "Handshake";
