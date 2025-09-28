@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
     //navBar.append(portfolioDiv);
     navBar.append(portfolioLink);
 
-    let foot = document.querySelector("#footer");
+    let foot = document.querySelector("#foot");
 
     let linkedInLink = document.createElement("a");
     linkedInLink.textContent = "LinkedIn";
