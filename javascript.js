@@ -27,10 +27,10 @@ window.addEventListener("load", () => {
     let linkedInLink = document.createElement("a");
     linkedInLink.textContent = "LinkedIn";
     linkedInLink.href = "https://www.linkedin.com/in/ben-cravens-038b582b1/";
-    linkedInLink.append(foot);
+    foot.append(LinkedInLink);
 
     let handshakeLink = document.createElement("a");
     handshakeLink.textContent = "Handshake";
     handshakeLink.href = "https://rose-hulman.joinhandshake.com/profiles/a5ntrj";
-    handshakeLink.append(foot);
+    foot.append(handshakeLink);
 })
