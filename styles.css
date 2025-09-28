@@ -2,12 +2,11 @@ nav {
     background-color: #800000;
     color: white;
     height: 50px;
-    text-align: center;
 }
 
 nav a {
-    width: 33%;
-    font-size: 10px;
+    margin: auto;
+    font-size: 2em;
 }
 
 footer {
@@ -17,9 +16,6 @@ footer {
 
 div {
     background-color: lightgray;
-    border-width: 1;
-    border-bottom: darkgray;
-    border-top: darkgray;
     text-align: left;
     padding-bottom: 20px;
 }
