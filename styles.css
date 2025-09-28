@@ -1,0 +1,35 @@
+nav {
+    background-color: #800000;
+    color: white;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+}
+
+div {
+    background-color: lightgray;
+    border-width: 1;
+    border-bottom: darkgray;
+    border-top: darkgray;
+    text-align: left;
+}
+
+h3 {
+    background-color: #800000;
+    color: white;
+}
+
+h2 {
+    background-color: gray;
+}
+
+#indexDiv {
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
