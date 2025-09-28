@@ -25,10 +25,14 @@ div {
 h2 {
     background-color: #800000;
     color: white;
+    height: 30px;
+    margin-bottom: 0px;
 }
 
 h3 {
     background-color: gray;
+    height: 20px;
+    margin-bottom: 0px;
 }
 
 #indexDiv {
