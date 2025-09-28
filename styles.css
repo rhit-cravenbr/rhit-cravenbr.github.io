@@ -11,6 +11,10 @@ nav a {
     color: white;
 }
 
+a:visited {
+    color: #c1c1c1;
+}
+
 footer {
     background-color: #800000;
     height: 50px;

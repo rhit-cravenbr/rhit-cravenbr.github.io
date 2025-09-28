@@ -21,6 +21,7 @@ window.addEventListener("load", () => {
     portfolioLink.href = "portfolio.html";
     //navBar.append(portfolioDiv);
     navBar.append(portfolioLink);
+    
 
     let foot = document.querySelector("#foot");
 
