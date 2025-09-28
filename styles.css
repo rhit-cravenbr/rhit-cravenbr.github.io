@@ -29,6 +29,15 @@ h2 {
     margin-bottom: 0px;
 }
 
+#h1Div {
+    background-color: white;
+    height: 200px;
+}
+
+h1 {
+    margin: auto;
+}
+
 #indexDiv {
     text-align: center;
 }
