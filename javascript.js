@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
     portfolioLink.textContent = "Portfolio";
     portfolioLink.href = "portfolio.html";
     //navBar.append(portfolioDiv);
-    navBar.append(portolioLink);
+    navBar.append(portfolioLink);
 
     let foot = document.querySelector("#footer");
 })
