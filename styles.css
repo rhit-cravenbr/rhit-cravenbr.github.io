@@ -31,11 +31,16 @@ h2 {
 
 #h1Div {
     background-color: white;
-    height: 200px;
+    height: 100px;
+}
+
+#h1Div2 {
+    background-color: white;
+    text-align: center;
 }
 
 h1 {
-    margin: auto;
+    font-size: 2em;
 }
 
 #indexDiv {
