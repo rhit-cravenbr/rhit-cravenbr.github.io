@@ -1,6 +1,12 @@
 nav {
     background-color: #800000;
     color: white;
+    height: 50px;
+    text-align: center;
+}
+
+nav a {
+    width: 33%;
 }
 
 footer {
@@ -16,12 +22,12 @@ div {
     text-align: left;
 }
 
-h3 {
+h2 {
     background-color: #800000;
     color: white;
 }
 
-h2 {
+h3 {
     background-color: gray;
 }
 
