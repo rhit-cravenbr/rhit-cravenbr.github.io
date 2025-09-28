@@ -1,17 +1,26 @@
 window.addEventListener("load", () => {
     let navBar = document.querySelector("#navBar");
+
+    //let indexDiv = document.createElement("div");
     let indexLink = document.createElement("a");
-    let resumeLink = document.createElement("a");
-    let portfolioLink = document.createElement("a");
     indexLink.textContent = "Index";
-    resumeLink.textContent = "Resume";
-    portfolioLink.textContent = "Portfolio";
-    indexLink.href = "index.html"
-    resumeLink.href = "resume.html"
-    portfolioLink.href = "portfolio.html"
+    indexLink.href = "index.html";
+    //navBar.append(indexDiv);
     navBar.append(indexLink);
+
+    //let resumeDiv = document.createElement("div");
+    let resumeLink = document.createElement("a");
+    resumeLink.textContent = "Resume";
+    resumeLink.href = "resume.html";
+    //navBar.append(resumeDiv);
     navBar.append(resumeLink);
-    navBar.append(portfolioLink);
+
+    //let portfolioDiv = document.createElement("div");
+    let portfolioLink = document.createElement("a");
+    portfolioLink.textContent = "Portfolio";
+    portfolioLink.href = "portfolio.html";
+    //navBar.append(portfolioDiv);
+    navBar.append(portolioLink);
 
     let foot = document.querySelector("#footer");
 })
